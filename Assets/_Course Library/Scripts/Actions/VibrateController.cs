@@ -9,12 +9,22 @@ public class VibrateController : MonoBehaviour
     public float strongVibrate = 0.75f;
     public float weakVibrate = 0.25f;
 
-    private XRController controller = null;
+    public XRController controller;
 
-    private void Awake()
+    public void Awake()
     {
-        controller = GetComponent<XRController>();
+        //controller = GetComponent<XRController>();
+
+        //GameObject ctrlR = GameObject.FindWithTag("CtrlR");
+
+        //if (ctrlR != null)
+        //{
+        //    controller = ctrlR.GetComponent<XRController>();
+        //    Debug.Log("Found right ctrl");
+        //}
     }
+
+   
 
     public void Vibrate(float amplitude, float duration)
     {
@@ -30,5 +40,23 @@ public class VibrateController : MonoBehaviour
     public void VibrateStrong(float duration)
     {
         controller.SendHapticImpulse(strongVibrate, duration);
+        Debug.Log("Called VibrateStrong");
+    }
+
+  
+
+    public void DebugMe1()
+    {
+        Debug.Log("You debugged 1");
+    }
+
+    public void DebugMe2()
+    {
+        Debug.Log("You debugged 2");
+    }
+
+    public void DebugMe3()
+    {
+        Debug.Log("You debugged 3");
     }
 }
