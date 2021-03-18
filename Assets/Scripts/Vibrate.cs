@@ -44,12 +44,14 @@ public class Vibrate : MonoBehaviour
         if (other.gameObject.CompareTag("CtrlR")){
             Debug.Log("Enter RIGHT");
             readyRight = true;
+            //readyLeft = false;
         }
 
         if (other.gameObject.CompareTag("CtrlL"))
         {
             Debug.Log("Enter LEFT");
             readyLeft = true;
+            //readyRight = false;
         }
     }
 
