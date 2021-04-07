@@ -7,6 +7,8 @@ TagManager:
   - CtrlR
   - CtrlL
   - Drill
+  - BaseballHat
+  - CaptainsHat
   layers:
   - Default
   - TransparentFX
