@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -6770,6 +6770,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1992761929}
     m_Modifications:
+    - target: {fileID: 1947538005898197150, guid: 97b20f74155d0884486f52bf01627dca,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f92ce6a2e9e04e458f46e6a635b1d62, type: 2}
+    - target: {fileID: 1947538005898197150, guid: 97b20f74155d0884486f52bf01627dca,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: aac9ca603ccbbc64d91a521b048c6384, type: 2}
     - target: {fileID: 2204947911816053410, guid: 97b20f74155d0884486f52bf01627dca,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -6780,6 +6790,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f3466f95a4f943147ae6fd2f7b2df697, type: 2}
+    - target: {fileID: 3511803264179040445, guid: 97b20f74155d0884486f52bf01627dca,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: aac9ca603ccbbc64d91a521b048c6384, type: 2}
+    - target: {fileID: 3511803264179040445, guid: 97b20f74155d0884486f52bf01627dca,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: d06839d762cc7d940b008969a17425df, type: 2}
     - target: {fileID: 3777015724562232041, guid: 97b20f74155d0884486f52bf01627dca,
         type: 3}
       propertyPath: m_Name
